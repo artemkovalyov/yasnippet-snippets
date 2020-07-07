@@ -4,5 +4,5 @@
 # key: highlight
 # --
 {% highlight ${1:language} %}
-${0:content}
+${0:`(or yas-selected-text "Content")`}
 {% endhighlight %}

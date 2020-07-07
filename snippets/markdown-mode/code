@@ -3,5 +3,5 @@
 # key: code
 # --
 \`\`\`$1
-$0
+`(or yas-selected-text "Code")` $0
 \`\`\`

@@ -3,6 +3,6 @@
 # contributor: Peng Deng <dengpeng@gmail.com>
 # key: h4
 # --
-#### ${1:Header 4} ####
+#### ${1:`(or yas-selected-text "Heading")`}
 
 $0

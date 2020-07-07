@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Inline Code
 # contributor: Peng Deng <dengpeng@gmail.com>
+# updated by: Artem Kovalov <artem.kovalyov@gmail.com>
 # key: `
 # --
-\`${1:Code}\` $0
+\`${1:`(or yas-selected-text "Code")`}\` $0
