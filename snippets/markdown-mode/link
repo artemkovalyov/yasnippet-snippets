@@ -3,4 +3,4 @@
 # contributor: Peng Deng <dengpeng@gmail.com>
 # key: link
 # --
-[${1:`(or yas-selected-text "Link")}](${2:https://} $3) $0
+[${1:`,(or yas-selected-text "Link")}](${2:https://} $3) $0
