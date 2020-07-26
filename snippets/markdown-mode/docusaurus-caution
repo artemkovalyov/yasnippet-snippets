@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Docusaurus caution admonition
+# contributor: Artem Kovalov <artem.kovalyov@gmail.com>
+# key: caution
+# --
+:::caution ${1: "Header"}
+${2:`(or yas-selected-text "Text")`}
+:::

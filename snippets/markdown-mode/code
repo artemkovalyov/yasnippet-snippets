@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Code block
+# contributor: Artem Kovalov <artem.kovalyov@gmail.com>
 # key: code
 # --
 \`\`\`$1

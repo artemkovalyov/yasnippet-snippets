@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Import Tabs component for Docusaurus
+# key: imptabs
+# --
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';

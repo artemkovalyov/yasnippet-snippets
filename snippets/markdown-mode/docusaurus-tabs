@@ -1,0 +1,33 @@
+# contributor: Artem Kovalov <artem.kovalyov@gmail.com>
+# name: Docusaurus Tabs for 2 code blocks
+# key: dtabs
+# --
+
+<Tabs
+  defaultValue=${1:"js"}
+  values={[
+    { label: 'JavaScript', value: 'js', },
+    { label: 'Java', value: 'java', },
+  ]
+}>
+
+<TabItem value="js">
+
+\`\`\`js
+function helloWorld() {
+  console.log('Hello, world!');
+}
+\`\`\`
+
+<TabItem value="java">
+
+\`\`\`java
+class HelloWorld {
+  public static void main(String args[]) {
+    System.out.println("Hello, World");
+  }
+}
+\`\`\`
+
+</TabItem>
+</Tabs>

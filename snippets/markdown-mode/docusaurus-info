@@ -1,0 +1,7 @@
+# name: Docusaurus info admonition
+# contributor: Artem Kovalov <artem.kovalyov@gmail.com>
+# key: info
+# --
+:::info ${1: "Header"}
+${2:`(or yas-selected-text "Text")`}
+:::

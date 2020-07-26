@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Docasaurus meta header
+# contributor: Artem Kovalov <artem.kovalyov@gmail.com>
+# key: dmeta
+# --
+---
+id: ${1:document-slag}
+title: ${2:Feature title}
+sidebar_label: ${3:Shiny label :)}
+description: ${4:Why should I read this?!}
+keywords:
+  - sap
+  - cloud
+  - sdk
+  - cloud native
+  - cloud sdk
+  - sap cloud sdk
+---
