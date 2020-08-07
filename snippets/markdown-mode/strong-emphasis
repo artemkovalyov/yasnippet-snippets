@@ -3,4 +3,4 @@
 # contributor: Peng Deng <dengpeng@gmail.com>
 # key: __
 # --
-**${1:`(or yas-selected-text "Text")`}** $0
+**${1:`(or yas-selected-text "Text")`}**
