@@ -3,6 +3,7 @@
 # contributor: Artem Kovalov <artem.kovalyov@gmail.com>
 # key: dmeta
 # --
+
 ---
 id: ${1:document-slag}
 title: ${2:Feature title}

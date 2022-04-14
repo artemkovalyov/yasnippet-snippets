@@ -4,5 +4,7 @@
 # key: note
 # --
 :::note ${1: "Header"}
+
 ${2:`(or yas-selected-text "Text")`}
+
 :::
