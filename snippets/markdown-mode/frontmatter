@@ -15,5 +15,5 @@ image: ${7: path to image}
 tags:
 - a
 - b
-uuid: `(uuidgen4)`
+uuid: `(uuidgen-4)`
 ---
