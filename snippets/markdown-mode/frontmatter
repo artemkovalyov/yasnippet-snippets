@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: Docusaurus tip admonition
+# name: frontmatter
 # contributor: Artem Kovalov <artem.kovalyov@gmail.com>
-# key: tip
+# key: meta
 # --
 
 ---
