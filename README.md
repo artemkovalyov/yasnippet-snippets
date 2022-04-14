@@ -1,14 +1,11 @@
 # Yasnippet official snippet collections
 
 [![MELPA Stable](https://stable.melpa.org/packages/yasnippet-snippets-badge.svg)](https://stable.melpa.org/#/yasnippet-snippets)
+[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/yasnippet-snippets.svg)](https://elpa.nongnu.org/nongnu/yasnippet-snippets.svg)
 [![MELPA](https://melpa.org/packages/yasnippet-snippets-badge.svg)](https://melpa.org/#/yasnippet-snippets)
-
-[![Join the chat at https://gitter.im/AndreaCrotti/yasnippet-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndreaCrotti/yasnippet-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 
 This repository contains the official collection of snippets for [yasnippet](http://github.com/capitaomorte/yasnippet).
 
-You can see [here](http://andreacrotti.github.io/yasnippet-snippets/snippets.html) a big HTML page with all the available snippets grouped by mode.
 
 # How to install
 
@@ -19,7 +16,7 @@ You can install this package from melpa, by first ensuring that you have the mel
 ```lisp
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 (package-initialize)
 ```
 

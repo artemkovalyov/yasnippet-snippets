@@ -4,9 +4,10 @@
 
 ;; Author: Andrea Crotti <andrea.crotti.0@gmail.com>
 ;; Keywords: snippets
-;; Version: 0.2
+;; Version: 1.0
 ;; Package-Requires: ((yasnippet "0.8.0"))
 ;; Keywords: convenience, snippets
+;; Homepage: https://github.com/AndreaCrotti/yasnippet-snippets
 
 ;;; Commentary:
 
@@ -49,6 +50,7 @@
   ;; value, so that yasnippet will automatically find the directory
   ;; after this package is updated (i.e., moves directory).
   (add-to-list 'yas-snippet-dirs 'yasnippet-snippets-dir t)
+  (yas--load-snippet-dirs)
   (yas-load-directory yasnippet-snippets-dir t))
 
 (defgroup yasnippet-snippets nil
