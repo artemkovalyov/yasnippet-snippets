@@ -9,7 +9,7 @@ slug: ${1:document-slag}
 title: ${2:Document Title}
 description: ${3: Description will go to meta}
 series: ${4: Series name }
-seriesid: ${5: Series ID}
+seriesId: ${5: Series ID}
 date: ${6: `(current-time-string)`}
 image: ${7: path to image}
 author: ${8: Artem Kovalov}
