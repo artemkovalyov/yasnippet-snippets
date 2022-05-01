@@ -8,13 +8,15 @@
 slug: ${1:document-slag}
 title: ${2:Document Title}
 description: ${3: Description will go to meta}
-series: ${4: Series name }
-seriesId: ${5: Series ID}
-date: ${6: `(current-time-string)`}
 image: ${7: path to image}
 author: ${8: Artem Kovalov}
-published: ${9: false}
-publishAt: ${10: `(current-time-string)`}
+isPublished: ${9: false}
+publishedTime: ${10: `(insert-timestamp-iso)`}
+modifiedTime: ${10: `(insert-timestamp-iso)`}
+expirationTime: ${10: `(insert-timestamp-iso)`}
+series: ${4: Series name }
+seriesId: ${5: Series ID}
+section: ${11: section name for Open Graph}
 tags:
 - a
 - b
