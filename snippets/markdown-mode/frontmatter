@@ -8,15 +8,16 @@
 slug: ${1:document-slag}
 title: ${2:Document Title}
 description: ${3: Description will go to meta}
-image: ${7: path to image}
-author: ${8: Artem Kovalov}
-isPublished: ${9: false}
-publishedTime: ${10: `(insert-timestamp-iso)`}
-modifiedTime: ${10: `(insert-timestamp-iso)`}
+excerpt: ${4: Description will go to meta}
+image: ${5: path to image}
+author: ${6: Artem Kovalov}
+published: ${7: false}
+publishingTime: ${8: `(insert-timestamp-iso)`}
+modificationTime: ${9: `(insert-timestamp-iso)`}
 expirationTime: ${10: `(insert-timestamp-iso)`}
-series: ${4: Series name }
-seriesId: ${5: Series ID}
-section: ${11: section name for Open Graph}
+series: ${11: Series name }
+seriesId: ${12: Series ID}
+section: ${13: section name for Open Graph}
 tags:
 - a
 - b
