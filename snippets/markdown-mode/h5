@@ -4,5 +4,3 @@
 # key: h5
 # --
 ##### ${1:`(or yas-selected-text "Heading")`}
-
-$0

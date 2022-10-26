@@ -5,21 +5,21 @@
 # --
 
 ---
-slug: ${1:document-slag}
-title: ${2:Document Title}
-description: ${3: Description will go to meta}
-excerpt: ${4: Description will go to meta}
-image: ${5: path to image}
+slug: ${1:page-slug}
+title: ${2:page-title}
+description: ${3: used in meta tags}
+excerpt: ${4: used as post extract }
+image: ${5: example.png}
 author: ${6: Artem Kovalov}
 published: ${7: false}
-publishingTime: ${8: `(insert-timestamp-iso)`}
-modificationTime: ${9: `(insert-timestamp-iso)`}
+publishedTime: ${8: `(insert-timestamp-iso)`}
+modifiedTime: ${9: `(insert-timestamp-iso)`}
 expirationTime: ${10: `(insert-timestamp-iso)`}
-series: ${11: Series name }
-seriesId: ${12: Series ID}
-section: ${13: section name for Open Graph}
+series: ${11: used to group material in series}
+section: ${12: top level section for meta, i.e. Technology}
 tags:
-- a
-- b
+- One
+- Two
+- Three
 uuid: `(uuidgen-4)`
 ---
