@@ -8,12 +8,12 @@
 slug: ${1:page-slug}
 title: ${2:page-title}
 description: ${3: used in meta tags}
-excerpt: ${4: used as post extract }
-image: ${5: example.png}
+excerpt: ${4: provied a post extract }
+image: ${5: /stars.svg}
 author: ${6: Artem Kovalov}
 published: ${7: false}
-publishedTime: ${8: `(insert-timestamp-iso)`}
-modifiedTime: ${9: `(insert-timestamp-iso)`}
+publishedTime: ${8: `(insert-timestamp-default)`}
+modifiedTime: ${9: `(insert-timestamp-default)`}
 expirationTime: ${10: `(insert-timestamp-iso)`}
 series: ${11: used to group material in series}
 section: ${12: top level section for meta, i.e. Technology}
