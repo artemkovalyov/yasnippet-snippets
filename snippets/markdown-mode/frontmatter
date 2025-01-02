@@ -23,3 +23,8 @@ tags:
 - Three
 uuid: `(uuidgen-4)`
 ---
+
+<script>
+    import imageLink from '$lib/assets/someoneinmyhead.webp';
+    import Head from '$lib/components/Head.svelte'
+</script>
